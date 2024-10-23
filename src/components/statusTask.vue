@@ -48,7 +48,6 @@ export default{
 </script>
 
 <style>
-@import url("../global/variables.css");
 .statusContainer{
     display: flex;
     width: 100%;
@@ -60,12 +59,12 @@ export default{
     font-size: 14px;
     margin-right: 22px;
     font-family: var(--font);
-    color: var(--lightText);
+    color: var(--text);
     font-weight: 500;
     line-height: 20px;
     letter-spacing: -0.24px;
+    text-align: center;
     cursor: pointer;
-    transition: all ease-in-out .2s;
     
 }
 

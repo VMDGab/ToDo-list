@@ -5,6 +5,7 @@
         <img alt="Vue logo" src="../assets/logo.svg">
       </div>
       <Status/>
+      <Card title="Appoitment with the Design Team" date="25 nov. 14:00" :belated="false"/>
     </div>
   </div>
 </template>
@@ -12,11 +13,13 @@
 <script>
 // @ is an alias to /src
 import Status from '@/components/statusTask.vue'
+import Card from '@/components/taskCard.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Status
+    Status,
+    Card
   }
 }
 </script>
