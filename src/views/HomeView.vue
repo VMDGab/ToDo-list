@@ -4,18 +4,19 @@
       <div class="header">
         <img alt="Vue logo" src="../assets/logo.svg">
       </div>
+      <Status/>
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Status from '@/components/statusTask.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    Status
   }
 }
 </script>
@@ -31,13 +32,14 @@ export default {
   height: 100vh;
 }
 .home{
+  padding: 0 20px;
   width: 375px;
   height: 812px;
   background-color: var(--bg);
 }
 .header{
+  padding: 54px 0 45.68px;
   display: flex;
   justify-content: flex-start;
-  padding: 54px 20px 45.68px;
 }
 </style>
